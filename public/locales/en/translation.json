@@ -1,0 +1,73 @@
+{
+    "navbar": {
+      "home": "Home",
+      "preschool": "Preschool",
+      "speechTherapy": "Speech Therapy",
+      "dance": "Dance",
+      "montessori": "Montessori"
+    },
+    "home": {
+      "welcomeTitle": "Welcome to the Little Panda Kids Academy - a place where every child grows, plays, and learns with joy.",
+      "welcomeText": "At Little Panda, we believe that early childhood is a unique and precious time. That’s why we've created a warm, supportive environment where children can explore their talents, develop essential skills, and feel truly at home.\n\nOur center offers a thoughtful combination of care and education – from early learning programs and Montessori-inspired activities to creative movement, speech development, and more. Every child is different, and we’re here to help each little one discover their own path at their own pace.\n\nWe invite you to visit, meet our team, and see how your child can thrive at Little Panda."
+    },
+    "speech": {
+      "title": "Speech Therapy with Heart & Expertise",
+      "description": "At Panda-Baby, our speech therapy sessions are led by certified specialists who know how to turn learning into a joyful experience. We take a warm, personalized approach — every child gets the attention and care they need to grow their speech and language skills with confidence. Through fun games, storytelling, and gentle guidance, we help each child find their voice and express themselves freely."
+    },
+    "montessori": {
+    "title": "Montessori at Little Panda – Learning through Wonder and Independence",
+    "description": "At Little Panda, our Montessori-inspired classes are all about nurturing your child's natural curiosity and love of learning. Using hands-on materials and child-led activities, we create a calm and engaging environment where little minds can grow with confidence.\n\nThe early years are a magical time for development. That's why our Montessori approach focuses on building independence, concentration, and a true sense of joy in learning – all at a pace that’s just right for your child.\n\nEvery discovery, no matter how small, is a big step in their journey. And we’re here to support them every step of the way."
+    },
+    "preschool": {
+    "title": "Our Little Preschool – A Warm Start to Big Adventures",
+    "description": "At Little Panda, our preschool is a cozy and caring space where your child can feel safe, happy, and truly seen. We believe that every child is unique, so we offer an individual approach, lots of attention, and plenty of encouragement to help them grow at their own pace.\n\nOur days are filled with gentle routines, fun learning activities, creative play, and lots of smiles. We also take pride in serving healthy, homemade meals that kids enjoy - because growing minds need good food too.\n\nMost of all, we create a warm, friendly atmosphere where children feel like they belong. It’s more than just a preschool — it’s a place to grow, explore, and feel loved."
+  },
+  "form": {
+    "intro": "Questions or sign-up? Just fill out the form below and we’ll get back to you!",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "submit": "Sign Up",
+    "thankYou": "Thank you for signing up!",
+    "error": "Submission failed. Please try again later."
+  },
+  "dance": {
+    "title": "Dance Classes – Moving with Joy and Confidence",
+    "description": "At Little Panda, our dance classes are all about joy, movement, and self-expression. Through playful choreography, music, and rhythm, children discover the magic of dancing — while building coordination, balance, and body awareness.\n\nOur experienced instructors create a warm, encouraging atmosphere where every child feels confident to move, explore, and shine. Whether it’s their first dance step or a full routine, we celebrate progress at every level.\n\nDancing helps children grow not just physically, but emotionally and socially too. And most importantly — it’s so much fun!",
+    "filters": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "all": "All"
+    },
+    "classes": {
+      "ballet1": {
+        "name": "Ballet 1",
+        "description": "A gentle introduction to the world of ballet — with playful movement, music, and smiles. Perfect for little ones taking their very first steps in dance."
+      },
+      "ballet2": {
+        "name": "Ballet 2",
+        "description": "For young dancers ready to grow — refining technique, building grace and confidence, and expressing themselves through movement."
+      },
+      "creativeMovement": {
+        "name": "Creative Movement",
+        "description": "A joyful first dance experience for toddlers! Through music, games, and gentle movement, little ones explore rhythm, coordination, and self-expression — all in a playful, caring environment."
+      },
+      "hiphop1": {
+        "name": "Hip Hop 1",
+        "description": "A fun and energetic class where kids learn basic moves, rhythm, and confidence — all while dancing to upbeat music they love."
+      },
+      "hiphop2": {
+        "name": "Hip Hop 2",
+        "description": "For kids ready to level up — more dynamic combos, sharper moves, and creative expression in every step."
+      },
+      "jazzModern1": {
+        "name": "Jazz Modern 1",
+        "description": "An inspiring mix of energy and creativity! This class introduces young dancers to expressive movement and basic jazz technique in a fun, welcoming way."
+      },
+      "jazzModern2": {
+        "name": "Jazz Modern 2",
+        "description": "Designed for kids with some experience, this class builds on technique and style — helping dancers explore emotion, storytelling, and dynamic movement with confidence."
+      }
+    }
+  }
+  }

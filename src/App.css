@@ -1,38 +1,275 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6D7CC; 
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  
+}
+
+nav a:hover {
+  color: #594C39;
+}
+
+.main-container {
+  padding: 1rem;
+  min-height: 100vh;
+  background-color: #fefce8;
+}
+
+h1, h2 {
+  color: #594C39;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  color: #594C39;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #91695b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+
+.sliderWrapper {
+  
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  
+}
+.sliderWrapperPre {
+  
+  position: relative;
+  z-index: 1;
+  
+  overflow: hidden;
+  
+}
+
+.slideImage {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  transition: all 0.7s ease;
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: color 0.2s ease;
+}
+
+.navButton:hover {
+  color: #f0cbcb;
+}
+
+.navButtonLeft {
+  left: 10px;
+}
+
+.navButtonRight {
+  right: 10px;
+}
+.btnLang {
+  background-color: #594539;
+  color: #F6D7CC;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+ 
+}
+.btnLang:hover{
+  background-color: #887162;
+  
+}
+.logo {
+  height: 50px;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.logo-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+
+}
+.logoName {
+  
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #594C39;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+.titleText {
+  width: 45%;
+  margin-left: 45%;
+  text-align: justify;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #dbc0b0;
+  
+}
+.footerText {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: "500"
+}
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+}
+.textWrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d6ba9ba1;
+  padding: 30px; 
+
+}
+.pageText {
+  width: 50%;
+  text-align: justify;
+  margin-left: 10px;
+ 
+}
+.pageImage {
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+}
+.signUpForm {
+  background-color: #F6D7CC;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+  
+}
+
+.signUpFormInput {
+  margin-top: 10px;
+  color: #594C39;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #594C39;
+  border-radius: 15px;
+  padding: 10px;
+  width: 85%;
+}
+
+.singUpBtn {
+  background-color: #594539;
+  color: #F6D7CC;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 15px;
+  padding: 7px;
+  width: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.singUpBtn:hover{
+  background-color: #887162;
+  
+}
+.signUpFormText {
+  font-size: 15px;
+}
+.formWrapper {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  padding: 30px;
+}
+.btnWrapper {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
 }
+.danceText {
 
-.App-link {
-  color: #61dafb;
+ margin-left: 10vw;
+ margin-right: 10vw;
+ text-align: justify;
 }
+.danceTitle {
+  display: flex;
+  justify-content: center;
+}
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.dance-card {
+  width: 500px;
+  margin: 15px;
+}
+.danceDescr {
+  text-align: justify;
+}
+.danceBtn {
+  background-color: #594539;
+  color: #F6D7CC;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 15px;
+  padding: 7px;
+  width: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
 }
