@@ -1,5 +1,7 @@
 
-
+* {
+  box-sizing: border-box;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -28,6 +30,21 @@ nav a:hover {
   color: #594C39;
 }
 
+.burger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #594C39;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 .main-container {
   padding: 1rem;
   min-height: 100vh;
@@ -100,6 +117,9 @@ p {
 .navButtonRight {
   right: 10px;
 }
+.links-container {
+  display: flex;
+}
 .btnLang {
   background-color: #594539;
   color: #F6D7CC;
@@ -140,6 +160,8 @@ p {
 .title {
   display: flex;
   justify-content: center;
+  margin-left: 10px;
+  text-align: center;
 }
 .titleText {
   width: 45%;
@@ -160,6 +182,14 @@ p {
   font-size: 15px;
   font-weight: "500"
 }
+.footerLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
 .titleWrapper {
   display: flex;
   justify-content: center;
@@ -178,8 +208,9 @@ p {
  
 }
 .pageImage {
-  width: 600px;
-  height: 400px;
+  width: 90vw;
+  max-width: 600px;
+  height: auto;
   border-radius: 15px;
 }
 .signUpForm {
@@ -272,4 +303,120 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   
+}
+
+@media (max-width: 1100px) {
+  .burger {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    background-color: #f6d7cc;
+    position: absolute;
+    top: 60px;
+    left: 40vw;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    font-size: 18px;
+    color: #594C39;
+    text-align: left;
+  }
+  .slideImage {
+    height: 40vh; 
+  }
+ 
+}
+
+
+
+@media (max-width: 850px) {
+  .slideImage {
+    height: 30vh; 
+  }
+
+  .navButton {
+    font-size: 24px; 
+    top: 45%;
+  }
+
+  .titleText {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+  }
+
+  .title {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+  .textWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pageText { 
+    width: 90%;
+  }
+}
+
+
+
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1, h2 {
+  font-size: 20px;
+}
+.navButton {
+  font-size: 15px; 
+}
+.titleText p{
+  font-size: 18px;
+}
+.dance-card img {
+  width: 90vw;
+}
+.dance-card {
+  width: 90vw;
+}
+.textWrapper {
+  width: 90vw;
+}
+.textWrapper img {
+  width: 95vw;
+  height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnWrapper {
+  width: 90vw;
+  margin-bottom: 20px;
+}
+.danceBtn {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
 }
